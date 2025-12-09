@@ -327,7 +327,6 @@ class ChatViewModel(private val chatDao: ChatDao) : ViewModel() {
         viewModelScope.launch {
             chatDao.insertMessage(ChatEntity(sessionId = sessionId, text = userInput, isUser = true))
             try {
-                // セッションのタイトルが「新規チャット...」のままなら、最初の会話内容でタイトルを更新するロジックをここに入れるのもアリです
 
                 val response = generativeModel.generateContent(userInput)
                 val aiText = response.text ?: "..."

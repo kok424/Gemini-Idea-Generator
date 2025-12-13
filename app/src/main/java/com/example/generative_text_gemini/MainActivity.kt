@@ -258,7 +258,7 @@ class ChatViewModelFactory(private val dao: ChatDao) : ViewModelProvider.Factory
 }
 
 class ChatViewModel(private val chatDao: ChatDao) : ViewModel() {
-    private val apiKey = "AIzaSyB3y2gdbinGiRkZ8ZXnc5D88ag6Rdhxjcs" // あなたのキー
+    private val apiKey = "" // あなたのキー
     private val generativeModel = GenerativeModel(
         modelName = "gemini-2.5-flash",
         apiKey = apiKey,

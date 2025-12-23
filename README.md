@@ -6,7 +6,7 @@
 </p>
 
 ## 📖 概要
-Googleの生成AIモデル「Gemini 2.5 Flash-lite」を活用した、Android向けアイデア出し支援アプリです．
+Googleの生成AIモデル「Gemini 2.5 Flash」を活用した、Android向けアイデア出し支援アプリです．
 単なるチャットボットではなく，「壁打ち相手」としてユーザーの発想を引き出すことに特化しています．
 
 **「アイデアを出したいが，壁打ち相手がいない」「考えを整理したい」** という課題を解決するために開発しました．
@@ -23,7 +23,7 @@ Googleの生成AIモデル「Gemini 2.5 Flash-lite」を活用した、Android�
 * **UI:** Jetpack Compose (Material Design 3)
 * **アーキテクチャ:** MVVM (Model-View-ViewModel)
 * **データベース:** Room Database (SQLite)
-* **AI API:** Google AI Client SDK for Android (Gemini 1.5 Flash)
+* **AI API:** Google AI Client SDK for Android (Gemini 2.5 Flash)
 * **非同期処理:** Coroutines / Flow
 * **バージョン管理:** Git / GitHub
 

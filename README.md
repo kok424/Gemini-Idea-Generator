@@ -3,7 +3,8 @@
 <p align="center">
   <img src="main_display.png" width="300" alt="チャット画面">
   <img src="menu_display.png" width="300" alt="メニュー画面">
-　
+</p>
+
 ## 📖 概要
 Googleの生成AIモデル「Gemini 2.5 Flash-lite」を活用した、Android向けアイデア出し支援アプリです．
 単なるチャットボットではなく，「壁打ち相手」としてユーザーの発想を引き出すことに特化しています．

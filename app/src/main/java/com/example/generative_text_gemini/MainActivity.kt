@@ -183,13 +183,13 @@ fun IdeaChatScreen(viewModel: ChatViewModel) {
                 onValueChange = { inputText = it },
                 modifier = Modifier.weight(1f), // backgroundは削除
                 placeholder = { Text("アイデアを入力...") },
-                // ★ここを追加：どんな時でも「白背景・黒文字」にする魔法の設定
+                
                 colors = OutlinedTextFieldDefaults.colors(
                     focusedContainerColor = Color.White,    // 入力中の背景：白
                     unfocusedContainerColor = Color.White,  // 普段の背景：白
                     focusedTextColor = Color.Black,         // 入力中の文字：黒
                     unfocusedTextColor = Color.Black,       // 普段の文字：黒
-                    cursorColor = IdeaBlue                // カーソル（点滅する棒）は青にするとカッコいい
+                    cursorColor = IdeaBlue                
                 )
             )
             IconButton(

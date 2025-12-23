@@ -23,7 +23,7 @@ data class ChatSession(
 @Entity(tableName = "chat_messages")
 data class ChatEntity(
     @PrimaryKey(autoGenerate = true) val id: Int = 0,
-    val sessionId: Long, // ★これが「どのチャットルームか」の紐付けID
+    val sessionId: Long, // これが「どのチャットルームか」の紐付けID
     val text: String,
     val isUser: Boolean,
     val timestamp: Long = System.currentTimeMillis()
